@@ -1,0 +1,15 @@
+#!/bin/bash
+for envVar in createUsers \
+              installPackages \
+              needDocker
+do
+unset $envVar
+done
+#=================== Only edit from this line below ===============#
+#=================== Only edit from this line below ===============#
+#=================== Only edit from this line below ===============#
+#=================== Only edit from this line below ===============#
+# COmment what you dont need, uncomment and edit what you need
+createUsers="testuser01"
+installPackages="tcpdump curl wget wireguard-tools vim git"
+#needDocker=yes
